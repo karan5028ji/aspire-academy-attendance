@@ -1,73 +1,63 @@
-# 🎓 Aspire Academy — Student Management & Daily Attendance System
+# Aspire Academy - Student Attendance & Management System
 
-A modern, responsive, and mobile-friendly web application for educational institutes to manage student records, track daily attendance, monitor tuition fee balances, and analyze academic performance.
+A web app built for Aspire Academy to let students mark their daily attendance and help teachers manage student records and tuition fees.
 
-👉 **Live Production Demo**: [https://aspire-academy-attendance.vercel.app/](https://aspire-academy-attendance.vercel.app/)
-
-![App Screenshot Banner](https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&q=80&w=1200)
+Live Demo: https://aspire-academy-attendance.vercel.app/
 
 ---
 
-## ✨ Features
+## Features
 
-### 📱 1. Student Portal (User Side / Public Access)
-- **Self Check-in**: Students can search for their Name or Roll Number and record their attendance (**Present**, **Late**, **Absent**) for today.
-- **Personal Performance**: View individual attendance rate % and past record summary.
-- **Confidential Data Masking**: All tuition fee statuses, pending balances, and administrative management tools are hidden from the student view.
+### For Students
+- **Self Check-in**: Select your name or roll number to mark attendance (Present, Late, or Absent) for today.
+- **Privacy First**: Sensitive student details like fee status and payment balances are completely hidden from the student view.
+- **Mobile Friendly**: Designed to work smoothly on smartphones and touchscreens.
 
-### 🔐 2. Teacher & Admin Panel (Protected Login)
-- **Secure Login**: Protected login portal for faculty members.
-- **Confidential Fee Directory**: Complete student database with payment statuses (**Paid**, **Pending**, **Overdue**), total fees, and pending balances in Indian Rupees (₹).
-- **Student CRUD**: Add new students, edit details, and delete student records.
-- **Analytics & Risk Reports**: Automated alerts for low attendance (< 75%) and fee defaulter balance tracking.
-- **CSV Export**: One-click master CSV report download.
-
-### 📅 3. Daily Attendance Management (Teacher Side)
-- **Date Picker Header**: Quickly navigate between dates or select today.
-- **Course Filter**: Filter students by department/course.
-- **Bulk Toggles**: "Mark All Present", "Mark All Absent", or "Reset All" buttons.
-- **Live Counter**: Real-time counter of Present, Absent, Late, Unmarked, and overall percentage.
+### For Teachers & Admins
+- **Secure Login**: Access the admin panel to manage classes and student records.
+- **Fee Management**: Track tuition payment status (Paid, Pending, Overdue) with fee amounts in ₹.
+- **Attendance Tracker**: View class-wise attendance, toggle statuses, and add notes or reasons for absences.
+- **Reports**: See students with attendance below 75% and download directory reports as CSV.
 
 ---
 
-## 🛠️ Technology Stack
+## Demo Login Credentials
 
-- **Frontend Framework**: React 19 + Vite 8
-- **Styling**: Vanilla CSS with custom design tokens, modern glassmorphism, and mobile-first media queries.
-- **Icons**: `lucide-react`
-- **Data Persistence**: LocalStorage (works out of the box with zero backend setup required).
+You can test the teacher admin panel using these demo accounts:
 
----
-
-## 🔑 Demo Credentials
-
-To test the **Teacher / Admin Panel**, use the demo credentials below:
-
-- **Admin Login**: `admin@aspire.edu.in` / `admin123` (Prof. Rajesh Sharma)
-- **Teacher Login**: `teacher@aspire.edu.in` / `teacher123` (Dr. Sunita Rao)
+- **Admin Account**: `admin@aspire.edu.in` / `admin123`
+- **Teacher Account**: `teacher@aspire.edu.in` / `teacher123`
 
 ---
 
-## 🚀 Local Setup Instructions
+## Tech Stack
 
-1. **Clone the Repository**:
+- React 19
+- Vite
+- Vanilla CSS
+- Lucide React (Icons)
+- LocalStorage (for data persistence without needing a backend server setup)
+
+---
+
+## Local Setup
+
+If you want to run this project locally on your machine:
+
+1. Clone the repository:
    ```bash
    git clone https://github.com/karan5028ji/aspire-academy-attendance.git
    cd aspire-academy-attendance
    ```
 
-2. **Install Dependencies**:
+2. Install dependencies:
    ```bash
    npm install
    ```
 
-3. **Start Development Server** (accessible on local network/mobile phone):
+3. Run the development server:
    ```bash
    npm run dev
    ```
-   Open `http://localhost:5173/` on your computer or `http://<YOUR-IP>:5173/` on your phone!
 
-4. **Build Production Bundle**:
-   ```bash
-   npm run build
-   ```
+4. Open `http://localhost:5173/` in your browser. To open on your mobile phone on the same Wi-Fi, use the Network IP address printed in your terminal.
