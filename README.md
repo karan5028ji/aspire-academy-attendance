@@ -2,6 +2,8 @@
 
 A modern, responsive, and mobile-friendly web application for educational institutes to manage student records, track daily attendance, monitor tuition fee balances, and analyze academic performance.
 
+👉 **Live Production Demo**: [https://aspire-academy-attendance.vercel.app/](https://aspire-academy-attendance.vercel.app/)
+
 ![App Screenshot Banner](https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&q=80&w=1200)
 
 ---
@@ -50,7 +52,7 @@ To test the **Teacher / Admin Panel**, use the demo credentials below:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/aspire-academy-attendance.git
+   git clone https://github.com/karan5028ji/aspire-academy-attendance.git
    cd aspire-academy-attendance
    ```
 
@@ -69,13 +71,3 @@ To test the **Teacher / Admin Panel**, use the demo credentials below:
    ```bash
    npm run build
    ```
-
----
-
-## 🌐 Deploy to Vercel (Free Live Demo)
-
-1. Push your code to a public GitHub repository.
-2. Go to [vercel.com](https://vercel.com) and log in with GitHub.
-3. Click **Add New > Project** and import your repository.
-4. Vercel automatically detects Vite + React. Click **Deploy**.
-5. Copy your live Vercel URL and add it to your GitHub repository "About" section!
